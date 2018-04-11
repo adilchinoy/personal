@@ -1,9 +1,6 @@
-# README
+# THINGS TO COVER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This application is built in Ruby on Rails 5
 
 * Ruby version
 
