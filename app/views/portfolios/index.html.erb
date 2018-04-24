@@ -1,8 +1,9 @@
 <h1>Portfolio Items</h1>
 
-<% @portfolio_items.each do |p| %>
+<% @portfolio_item.each do |p| %>
 <h2><%=	p.title %></h2>
 <a href="<%= p.main_image %>"><img src="<%= p.thumb_image %>"></a>
 <p><%= p.subtitle %></p>
+<p><%= p.body %></p>
 <hr>
 <% end %>
